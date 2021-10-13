@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	}
 	
-	$puce.click(function() {
+	$puces.click(function() {
 		var $this = $(this);
 		var cible = $this.attr('data-cible');
 		$jours.hide();
