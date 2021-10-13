@@ -19,4 +19,4 @@ var $jours = $('.jour');var $puces = $('.bullets .entypo-record		');
 		$puces.removeClass('active'); $this.addClass('active');
 	});
 	init(); 
-);  
+});  
