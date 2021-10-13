@@ -58,7 +58,7 @@ section.bordure p {
 	text-transform: uppercase;
 	transform: rotate(-90deg);
 	transform-origin: 0 0 0;
-	transition: font-size .2s ease 0
+	transition: font-size .2s ease;
 }
 
 section.bordure p:hover {
