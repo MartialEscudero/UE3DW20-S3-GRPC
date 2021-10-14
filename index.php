@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Météo</title>
+	<link rel="icon" href="assets/images/favicon.ico" />
 	<link rel="stylesheet" href="assets/css/import.css" />
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/css/preloader.css" />
@@ -128,4 +129,5 @@
 	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
 	<script src='assets/js/script.js'></script>
 </body>
+
 </html>
