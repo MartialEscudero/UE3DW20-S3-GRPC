@@ -1,9 +1,9 @@
 [class*="entypo-"]:before {
-	font-family: 'entypo', sans-serif;
+	font-family: 'entypo', sans-serif
 }
 
 [class*="fontawesome-"]:before {
-	font-family: 'FontAwesome', sans-serif;
+	font-family: 'FontAwesome', sans-serif
 }
 
 .wrapper {
@@ -12,18 +12,18 @@
 	margin: 5% auto;
 	background-color: #1F222A;
 	border-radius: 7px;
-	display: none;
+	display: none
 }
 
 body {
 	color: #eee;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #000;
+	background-color: #000
 }
 
 body.isok {
 	background-color: #E0E1E3;
-	transition: background .5s ease;
+	transition: background .5s ease
 }
 
 section {
@@ -35,7 +35,7 @@ section {
 	position: relative;
 	background-color: #1F222A;
 	border-radius: 7px;
-	overflow: hidden;
+	overflow: hidden
 }
 
 section.bordure {
@@ -43,7 +43,7 @@ section.bordure {
 	height: 100%;
 	float: left;
 	background-color: #373B46;
-	border-radius: 7px;
+	border-radius: 7px
 }
 
 section.bordure p {
@@ -62,7 +62,7 @@ section.bordure p {
 }
 
 section.bordure p:hover {
-	font-size: 2.6em;
+	font-size: 2.6em
 }
 
 section.contenu h1 {
@@ -70,7 +70,7 @@ section.contenu h1 {
 	padding: 20px 0 35px;
 	position: relative;
 	font-size: 1.5em;
-	border-bottom: 2px solid #4b4e57;
+	border-bottom: 2px solid #4b4e57
 }
 
 section.contenu h1 a.lk {
@@ -86,59 +86,59 @@ section.contenu h1 a.lk {
 	text-decoration: none;
 	background-color: #000;
 	border-radius: 3px;
-	transition: color .5s;
+	transition: color .5s
 }
 
 section.contenu h1 a.lk:hover {
-	background-image: url(../images/gps_on.jpg);
+	background-image: url(../images/gps_on.jpg)
 }
 
 section.contenu .numero_jour {
 	text-align: right;
 	margin-top: 10px;
-	font-style: italic;
+	font-style: italic
 }
 
 section.contenu .temperature {
 	padding: 40px 0;
 	color: #3D414C;
 	font-size: 5em;
-	transition: color .5s ease;
+	transition: color .5s ease
 }
 
 section.contenu .temperature:hover {
-	color: #ff0;
+	color: #ff0
 }
 
 section.contenu .temperature.entypo-cloud:hover {
-	color: #C6C6C4;
+	color: #C6C6C4
 }
 
 section.contenu .temperature.entypo-water:hover {
-	color: #377ECE;
+	color: #377ECE
 }
 
 section.contenu .temperature.entypo-air:hover {
-	color: #C68ACE;
+	color: #C68ACE
 }
 
 section.contenu .temperature.entypo-cloud:hover,
 section.contenu .temperature.entypo-help:hover,
 section.contenu .temperature.entypo-moon:hover {
-	color: #fff;
+	color: #fff
 }
 
 section.contenu .temperature h2 {
 	display: inline;
 	color: #eee;
-	font-weight: 300;
+	font-weight: 300
 }
 
 section.contenu .temperature h2 span.degree-symbol {
 	display: inline-block;
 	margin: 0 15px;
 	font-size: .6em;
-	vertical-align: top;
+	vertical-align: top
 }
 
 section.contenu .temperature h2 span.celcius {
@@ -146,16 +146,16 @@ section.contenu .temperature h2 span.celcius {
 	margin: 10px 0 0 15px;
 	color: #3D414C;
 	font-size: .3em;
-	vertical-align: top;
+	vertical-align: top
 }
 
 section.contenu .description {
-	margin-bottom: 10px;
+	margin-bottom: 10px
 }
 
 section.contenu ul {
 	padding: 5px;
-	margin-bottom: 70px;
+	margin-bottom: 70px
 }
 
 section.contenu ul li {
@@ -163,11 +163,11 @@ section.contenu ul li {
 	float: left;
 	margin-right: 30px;
 	color: #3D414C;
-	font-size: 2em;
+	font-size: 2em
 }
 
 section.contenu ul li:last-child {
-	margin-right: 0;
+	margin-right: 0
 }
 
 section.contenu ul li span {
@@ -175,33 +175,33 @@ section.contenu ul li span {
 	color: #eee;
 	font-size: .6em;
 	line-height: 30px;
-	vertical-align: top;
+	vertical-align: top
 }
 
 section.contenu .bullets {
 	height: 70px;
 	color: #3D414C;
-	text-align: center;
+	text-align: center
 }
 
 section.contenu .bullets span {
 	margin-right: 10px;
 	font-size: .6em;
-	cursor: pointer;
+	cursor: pointer
 }
 
 section.contenu .bullets span.active {
 	color: #eee;
-	font-size: .8em;
+	font-size: .8em
 }
 
 section.contenu a {
 	color: #60646e;
 	font-size: 1.2em;
 	text-decoration: none;
-	transition: color .5s;
+	transition: color .5s
 }
 
 section.contenu a:hover {
-	color: #eee;
+	color: #eee
 }
